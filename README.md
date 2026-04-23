@@ -28,19 +28,15 @@ Determinar la tasa de liberación del hidrogel N36 2MBA3 con base en los datos e
       Eureqa: $x(t) = \frac{p_1 t}{p_2 + t}$ ...(3)
       Eureqa EDO=  $\dot{x} = p_1 - p_2 x$ ...(4)
 
-donde la Ecuación (1) representa la población de células anormales o patalógicas, la Ecuación (2) la población de células normales o sanas y la Ecuación (3) la población de células efectoras (citotóxicas o NK). La descripción de cada ecuación del sistema se realiza a continuación. Primero, se observa en la estructura de las Ecuaciones (1) y (2) que el desarrollo de las poblaciones de c\'{e}lulas patológicas y células sanas se describe por la ley de crecimiento logístico con tasas de crecimiento definidas por r1 y r2, y las capacidades de carga máxima establecidas por b1^-1 y b2^-1, respectivamente; mientras que en la Ecuación (3) describe el crecimiento de las células efectoras mediante la ley de acción de masas con una tasa r3. Los términos xy representan la competencia
-de recursos entre células patológicas y células sanas, ambas se eliminan a unas tasas dadas por a12 y a21, respectivamente. La eliminación de células patológicas por células efectoras y la supresión inmune se representan por los términos xz a unas tasas dadas por a13 y a31, respectivamente. Adicionalmente, las células efectoras tienen una muerte natural con una tasa d3. El parámetro de control rho representa la aplicación externa de un
-tratamiento de inmunoterapia.
+La descripción de cada ecuación del sistema se realiza a continuación. Primero, se observa en la estructura de la Ecuación (1) que el transporte de masa en la matriz polimérica se rige por la ley de potencia de Korsmeyer-Peppas, donde $k$ es una constante que incorpora las características estructurales del hidrogel y el exponente $n$ define el mecanismo de difusión (Fickiano o no Fickiano). En la Ecuación (2), el sistema describe una cinética de primer orden donde la liberación es proporcional a la cantidad de fármaco remanente; aquí $\beta$ representa la concentración máxima alcanzable en el equilibrio y $k$ la constante de velocidad de liberación.Por otro lado, la Ecuación (3) describe el crecimiento de la fracción liberada mediante un modelo de saturación tipo Michaelis-Menten (o Langmuir), donde el parámetro $p_1$ establece la capacidad de carga máxima del sistema y $p_2$ representa la constante de semisaturación, indicando el tiempo necesario para alcanzar la mitad de la liberación total.Finalmente, la Ecuación (4) presenta el modelo en su forma diferencial (EDO), la cual describe la tasa de cambio instantánea de la liberación ($\dot{x}$). En esta estructura, el término $p_1$ actúa como una tasa de entrada constante o flujo de liberación inicial, mientras que el término $-p_2x$ representa la resistencia o el freno del sistema a medida que se acerca al equilibrio, estableciendo una competencia dinámica entre la fuerza impulsora y la saturación del medio.
 
 
-Palabras clave: Caos; Conjuntos Compactos Invariantes; Condiciones de Estabilidad; Simulaciones Numéricas; Solución de EDOs.
+Palabras clave: Cinética de Liberación; Regresión No Lineal:; Modelado Estocástico; Simulaciones Numéricas; Solución de EDOs.
 
 ## Actividades a realizar
-1. 
-2. 
-3.
-4.
-...
+1. Cuaderno computacional de MATLAB
+2. Análisis matemático
+3. Generación de resultados gráficos
 
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
