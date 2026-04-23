@@ -2,21 +2,21 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: MATLAB; SPYDER
-message: lenguaje m; phyton
+title: Liberación controlada de fármacos por hidrogeles.
+message: lenguaje m
 type: software
 authors:
   - given-names: 'Fernanda '
     family-names: Antunez
     email: l22211745@tectijuana.edu.mx
     affiliation: TecNM-ITT
-repository-code: 'https://github.com/FernandaAntunez/Practica4MSF'
+repository-code: 'https://github.com/FernandaAntunez/Practica3GD'
 keywords:
-  - Circuito RLC
-  - Controlador PID
-  - Sistema Cardiovascular
-  - Modelo matemático
-  - Simulaciones numéricas
+  - Cinética de Liberación
+  - Regresión No Lineal
+  - Modelado Estocástico
+  - Simulaciones Numéricas
+  - Solución de EDOs.
 license: BSD-2-Clause
 version: '1.0'
-date-released: '2025-10-17'
+date-released: '2026-04-22'
