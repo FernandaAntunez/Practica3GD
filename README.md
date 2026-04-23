@@ -23,10 +23,10 @@ En el contexto de sistemas dinámicos que describen sistemas biológicos o fisio
 Determinar la tasa de liberación del hidrogel N36 2MBA3 con base en los datos experimentales de la siguiente figura. <img width="725" height="576" alt="image" src="https://github.com/user-attachments/assets/e02017e1-977b-406b-bc7e-d6953d66a6ce" />
 
 
-      Ecuación de Peppas: $x(t) = k t^n$
-      Farmacocinética de primer orden: $x(t) = \beta(1 - e^{-kt})$ 
-      Eureqa: $x(t) = \frac{p_1 t}{p_2 + t}$
-      Eureqa EDO=  $\dot{x} = p_1 - p_2 x$
+      Ecuación de Peppas: $x(t) = k t^n$ ...(1)
+      Farmacocinética de primer orden: $x(t) = \beta(1 - e^{-kt})$ ...(2)
+      Eureqa: $x(t) = \frac{p_1 t}{p_2 + t}$ ...(3)
+      Eureqa EDO=  $\dot{x} = p_1 - p_2 x$ ...(4)
 
 donde la Ecuación (1) representa la población de células anormales o patalógicas, la Ecuación (2) la población de células normales o sanas y la Ecuación (3) la población de células efectoras (citotóxicas o NK). La descripción de cada ecuación del sistema se realiza a continuación. Primero, se observa en la estructura de las Ecuaciones (1) y (2) que el desarrollo de las poblaciones de c\'{e}lulas patológicas y células sanas se describe por la ley de crecimiento logístico con tasas de crecimiento definidas por r1 y r2, y las capacidades de carga máxima establecidas por b1^-1 y b2^-1, respectivamente; mientras que en la Ecuación (3) describe el crecimiento de las células efectoras mediante la ley de acción de masas con una tasa r3. Los términos xy representan la competencia
 de recursos entre células patológicas y células sanas, ambas se eliminan a unas tasas dadas por a12 y a21, respectivamente. La eliminación de células patológicas por células efectoras y la supresión inmune se representan por los términos xz a unas tasas dadas por a13 y a31, respectivamente. Adicionalmente, las células efectoras tienen una muerte natural con una tasa d3. El parámetro de control rho representa la aplicación externa de un
